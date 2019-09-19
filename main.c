@@ -5,6 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	printf("hello sookmyung EE!\n");
+	int x;
+	short y;
+	double z;
+	char g;
+	
+	printf("byte of int : %d\n", sizeof(x));
+	printf("byte of short : %d\n", sizeof(y));
+	printf("byte of double : %d\n", sizeof(z)); 
+	printf("byte of char : %d\n", sizeof(g)); 
+
 	return 0;
 }
